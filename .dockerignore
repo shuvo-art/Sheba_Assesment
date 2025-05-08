@@ -1,0 +1,28 @@
+# Ignore node_modules (rebuilt in the container)
+node_modules/
+
+# Ignore dist (generated during build)
+dist/
+
+# Ignore virtual environment (created during build)
+venv/
+maxim/venv/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore uploads directory (mounted as a volume)
+uploads/
+
+# Ignore local environment files
+.env.local
+.env.development
+.env.test
+
+# Ignore Git-related files
+.git/
+.gitignore
+
+# Ignore Firebase Admin SDK key
+src/app/config/somos-ai-voice-cloning-firebase-adminsdk-fbsvc-0793bb60e0.json
